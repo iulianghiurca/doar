@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&diplay=swap");
+/* {
+  margin: 0;
+  padding: 0;
+}*/
+html {
+  background: black;
+  color: white;
+}
+body {
+  display: grid;
+  place-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.Container {
+  margin: 2vh auto;
+  background: rgba(79, 109, 245, 0.8);
+  padding: 2rem;
+  border-radius: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
+  line-height: 1.5em;
+}
+.Container header .Avatar {
+  display: block;
+  float: left;
+  width: 119px;
+  height: auto;
+  margin: 0 1em 0 0;
+  border-radius: 50%;
+}
+
+.Container header .Avatar .TitlulPaginii {
+  display: block;
+  margin: 0;
+  color: red;
+  font-size: clamp(2rem, 6vh, 4rem);
+  line-height: 1rem;
+}
